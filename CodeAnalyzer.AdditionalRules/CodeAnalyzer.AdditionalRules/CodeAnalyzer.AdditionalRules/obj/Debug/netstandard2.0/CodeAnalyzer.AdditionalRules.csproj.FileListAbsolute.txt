@@ -1,0 +1,11 @@
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\tools\install.ps1
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\tools\uninstall.ps1
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.deps.json
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.dll
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.pdb
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.csprojAssemblyReference.cache
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.AssemblyInfoInputs.cache
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.AssemblyInfo.cs
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.dll
+C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\obj\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.pdb

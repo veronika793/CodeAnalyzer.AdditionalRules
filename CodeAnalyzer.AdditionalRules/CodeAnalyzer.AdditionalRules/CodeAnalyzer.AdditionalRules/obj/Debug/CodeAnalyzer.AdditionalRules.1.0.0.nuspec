@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CodeAnalyzer.AdditionalRules</id>
+    <version>1.0.0</version>
+    <authors>Veronika</authors>
+    <owners>Veronika</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>CodeAnalyzer.AdditionalRules</description>
+    <releaseNotes>Added additional code analyzer rules.</releaseNotes>
+    <copyright>Copyright</copyright>
+    <tags>CodeAnalyzer.AdditionalRules, analyzers</tags>
+    <repository url="https://github.com/veronika793/CodeAnalyzer.AdditionalRules" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\tools\install.ps1" target="tools\install.ps1" />
+    <file src="C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\tools\uninstall.ps1" target="tools\uninstall.ps1" />
+    <file src="C:\Users\Veronika\Desktop\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\CodeAnalyzer.AdditionalRules\bin\Debug\netstandard2.0\CodeAnalyzer.AdditionalRules.dll" target="analyzers\dotnet\cs\CodeAnalyzer.AdditionalRules.dll" />
+  </files>
+</package>
