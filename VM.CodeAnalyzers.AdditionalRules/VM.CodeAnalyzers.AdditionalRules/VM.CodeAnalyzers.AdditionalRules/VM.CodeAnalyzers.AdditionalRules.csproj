@@ -8,19 +8,20 @@
 
   <PropertyGroup>
     <PackageId>CodeAnalyzers.AdditionalRules</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
-    <Authors>veronika793</Authors>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Veronika</Authors>
     <PackageLicenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Additional code analyzer rule - line length constraint</Description>
-    <PackageReleaseNotes>Added line length restrictions based on stylecop settings</PackageReleaseNotes>
+    <Description>Additional code analyzer rules</Description>
+    <PackageReleaseNotes>Restriction added - analyze everything inside namespace</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
     <PackageTags>code analyzers, additionalRules, analyzers, line length, syntax</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <FileVersion>1.0.0.0</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Product>CodeAnalyzers.AdditionalRules</Product>
   </PropertyGroup>
 
   <ItemGroup>

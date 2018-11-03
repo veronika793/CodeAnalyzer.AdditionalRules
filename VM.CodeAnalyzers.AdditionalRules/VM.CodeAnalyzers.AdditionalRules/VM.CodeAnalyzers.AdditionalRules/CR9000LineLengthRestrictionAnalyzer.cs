@@ -20,9 +20,8 @@ namespace CodeAnalyzers.AdditionalRules
 
         internal const string SettingsFileName = "stylecop.json";
 
-        internal static DiagnosticDescriptor Rule =
-             new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat,
-                Category, DiagnosticSeverity.Warning, isEnabledByDefault: true);
+        internal static DiagnosticDescriptor Rule = new DiagnosticDescriptor(
+            DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, isEnabledByDefault: true);
 
         private int maximumLineLength = default(int);
 
@@ -51,6 +50,8 @@ namespace CodeAnalyzers.AdditionalRules
                 return;
             }
 
+            var startTrace = false;
+
             foreach (var line in fileText.Lines)
             {
                 var difference = line.End - line.Start;
@@ -60,20 +61,24 @@ namespace CodeAnalyzers.AdditionalRules
                     var location = root.SyntaxTree.GetLocation(line.Span);
 
                     var node = root.FindNode(location.SourceSpan);
-                    var text = line.Text.ToString();
+
+                    if (node.IsKind(SyntaxKind.NamespaceDeclaration))
+                    {
+                        startTrace = true;
+                    }
 
                     if (!node.IsKind(SyntaxKind.UsingDirective) &&
                         !node.IsKind(SyntaxKind.NamespaceDeclaration) &&
                         !node.IsKind(SyntaxKind.ClassDeclaration) &&
-                        !node.IsKind(SyntaxKind.AnonymousMethodExpression) &&
                         !node.IsKind(SyntaxKind.EnumMemberDeclaration) &&
                         !node.IsKind(SyntaxKind.EnumDeclaration) &&
                         !node.IsKind(SyntaxKind.SingleLineDocumentationCommentTrivia) &&
-                        !node.IsKind(SyntaxKind.MultiLineDocumentationCommentTrivia))
+                        !node.IsKind(SyntaxKind.MultiLineDocumentationCommentTrivia) &&
+                        startTrace)
                     {
                         var diagnostic = Diagnostic.Create(
-                        Rule, location,
-                        $"Exceeds maximum line length of {maximumLineLength} characters.");
+                            Rule, location,
+                            $"Exceeds maximum line length of {maximumLineLength} characters.");
 
                         context.ReportDiagnostic(diagnostic);
                     }
@@ -98,7 +103,6 @@ namespace CodeAnalyzers.AdditionalRules
             return default(int);
         }
 
-        // Deserialize a JSON stream to a Analyzer settings - Newtonsoft.Json not working for some reason.  
         private AnalyzerSettings Deserizalize(string json)
         {
             var deserializedSettings = new AnalyzerSettings();
