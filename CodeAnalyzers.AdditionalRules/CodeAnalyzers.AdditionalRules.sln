@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.CodeAnalyzers.AdditionalRules", "VM.CodeAnalyzers.AdditionalRules\VM.CodeAnalyzers.AdditionalRules\VM.CodeAnalyzers.AdditionalRules.csproj", "{45B3041B-A191-41D0-8ED0-81BAE47CDAE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.AdditionalRules", "CodeAnalyzers.AdditionalRules\CodeAnalyzers.AdditionalRules\CodeAnalyzers.AdditionalRules.csproj", "{45B3041B-A191-41D0-8ED0-81BAE47CDAE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.CodeAnalyzers.AdditionalRules.Vsix", "VM.CodeAnalyzers.AdditionalRules\VM.CodeAnalyzers.AdditionalRules.Vsix\VM.CodeAnalyzers.AdditionalRules.Vsix.csproj", "{CDE727E7-2E59-47DA-81E1-C5FE75F4C31E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzers.AdditionalRules.Vsix", "CodeAnalyzers.AdditionalRules\CodeAnalyzers.AdditionalRules.Vsix\CodeAnalyzers.AdditionalRules.Vsix.csproj", "{CDE727E7-2E59-47DA-81E1-C5FE75F4C31E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -58,9 +58,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VM.CodeAnalyzers.AdditionalRules\VM.CodeAnalyzers.AdditionalRules.csproj">
+    <ProjectReference Include="..\CodeAnalyzers.AdditionalRules\CodeAnalyzers.AdditionalRules.csproj">
       <Project>{45B3041B-A191-41D0-8ED0-81BAE47CDAE6}</Project>
-      <Name>VM.CodeAnalyzers.AdditionalRules</Name>
+      <Name>CodeAnalyzers.AdditionalRules</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
