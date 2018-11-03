@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>CodeAnalyzers.Rule.LineLengthConstraint</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageId>CodeAnalyzers.AdditionalRules</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>veronika793</Authors>
     <PackageLicenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules</RepositoryUrl>
@@ -18,7 +18,7 @@
     <Copyright>Copyright</Copyright>
     <PackageTags>code analyzers, additionalRules, analyzers, line length, syntax</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.0</Version>
     <FileVersion>1.0.0.0</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>

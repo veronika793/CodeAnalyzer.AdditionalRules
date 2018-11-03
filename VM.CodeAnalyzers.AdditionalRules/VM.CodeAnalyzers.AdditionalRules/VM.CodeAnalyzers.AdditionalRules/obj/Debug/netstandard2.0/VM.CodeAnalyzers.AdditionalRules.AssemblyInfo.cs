@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Additional code analyzer rule - line length constraint")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VM.CodeAnalyzers.AdditionalRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VM.CodeAnalyzers.AdditionalRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

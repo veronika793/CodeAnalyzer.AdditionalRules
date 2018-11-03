@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>CodeAnalyzers.AdditionalRules</id>
-    <version>1.0.0</version>
+    <id>CodeAnalyzers.Additional.Rules</id>
+    <version>1.0.1</version>
     <authors>veronika793</authors>
     <owners>veronika793</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
