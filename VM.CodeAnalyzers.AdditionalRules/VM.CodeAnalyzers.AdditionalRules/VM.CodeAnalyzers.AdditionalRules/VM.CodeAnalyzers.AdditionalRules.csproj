@@ -1,23 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>VM.CodeAnalyzers.AdditionalRules</PackageId>
-    <PackageVersion>1.0.0.1</PackageVersion>
-    <Authors>Veronika</Authors>
+    <PackageId>CodeAnalyzers.Rule.LineLengthConstraint</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>veronika793</Authors>
     <PackageLicenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Additional code analyzer rules</Description>
-    <PackageReleaseNotes>Added line length restrictions</PackageReleaseNotes>
+    <Description>Additional code analyzer rule - line length constraint</Description>
+    <PackageReleaseNotes>Added line length restrictions based on stylecop settings</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
-    <PackageTags>VM.CodeAnalyzers.AdditionalRules, analyzers</PackageTags>
+    <PackageTags>code analyzers, additionalRules, analyzers, line length, syntax</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
+    <Version>1.0.0.1</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

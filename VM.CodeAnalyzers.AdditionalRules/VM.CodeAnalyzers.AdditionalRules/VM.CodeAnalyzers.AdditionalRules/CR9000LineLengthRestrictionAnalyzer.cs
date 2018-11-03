@@ -13,7 +13,7 @@ namespace CodeAnalyzers.AdditionalRules
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
     public class CR9000LineLengthRestrictionAnalyzer : DiagnosticAnalyzer
     {
-        internal const string DiagnosticId = "VCR9000";
+        internal const string DiagnosticId = "CR9000";
         internal const string Title = "Line length is too long";
         internal const string MessageFormat = "{0}";
         internal const string Category = "Syntax";

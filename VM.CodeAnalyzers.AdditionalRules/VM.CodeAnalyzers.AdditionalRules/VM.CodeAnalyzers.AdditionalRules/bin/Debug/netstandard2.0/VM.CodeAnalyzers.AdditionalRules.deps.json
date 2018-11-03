@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "VM.CodeAnalyzers.AdditionalRules/1.0.0": {
+      "VM.CodeAnalyzers.AdditionalRules/1.0.0.1": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.9.0",
           "NETStandard.Library": "2.0.3"
@@ -1236,7 +1236,7 @@
     }
   },
   "libraries": {
-    "VM.CodeAnalyzers.AdditionalRules/1.0.0": {
+    "VM.CodeAnalyzers.AdditionalRules/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

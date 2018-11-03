@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>VM.CodeAnalyzers.AdditionalRules</id>
-    <version>1.0.0</version>
-    <authors>Veronika</authors>
-    <owners>Veronika</owners>
+    <id>CodeAnalyzers.Rule.LineLengthConstraint</id>
+    <version>1.0.0.1</version>
+    <authors>veronika793</authors>
+    <owners>veronika793</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</licenseUrl>
-    <description>Additional code analyzer rules</description>
-    <releaseNotes>Added line length restrictions</releaseNotes>
+    <description>Additional code analyzer rule - line length constraint</description>
+    <releaseNotes>Added line length restrictions based on stylecop settings</releaseNotes>
     <copyright>Copyright</copyright>
-    <tags>VM.CodeAnalyzers.AdditionalRules, analyzers</tags>
+    <tags>code analyzers, additionalRules, analyzers, line length, syntax</tags>
     <repository url="https://github.com/veronika793/CodeAnalyzer.AdditionalRules" />
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
