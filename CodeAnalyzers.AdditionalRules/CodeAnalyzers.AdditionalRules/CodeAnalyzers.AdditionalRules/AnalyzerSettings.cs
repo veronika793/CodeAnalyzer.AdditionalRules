@@ -5,22 +5,22 @@
     [DataContract]
     class AnalyzerSettings
     {
-        [DataMember]
-        public Settings settings { get; set; }
+        [DataMember(Name = "settings")]
+        public Settings Settings { get; set; }
     }
 
     [DataContract]
     class Settings
     {
 
-        [DataMember]
-        public ReadabilityRules readabilityRules { get; set; }
+        [DataMember(Name = "readabilityRules")]
+        public ReadabilityRules ReadabilityRules { get; set; }
     }
 
     [DataContract]
     class ReadabilityRules
     {
-        [DataMember]
-        public int maximumLineLength { get; set; }
+        [DataMember(Name = "maximumLineLength")]
+        public int MaximumLineLength { get; set; }
     }
 }

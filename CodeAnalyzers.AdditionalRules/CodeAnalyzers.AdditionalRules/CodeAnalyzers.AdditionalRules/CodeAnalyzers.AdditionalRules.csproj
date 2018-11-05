@@ -8,17 +8,17 @@
 
   <PropertyGroup>
     <PackageId>CodeAnalyzers.AdditionalRules</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3 -softuni</PackageVersion>
     <Authors>Veronika</Authors>
     <PackageLicenseUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/veronika793/CodeAnalyzer.AdditionalRules</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Additional code analyzer rules</Description>
-    <PackageReleaseNotes>General project renaming</PackageReleaseNotes>
+    <PackageReleaseNotes>Line length restriction with defined value of 120 characters</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
     <PackageTags>code analyzers, additionalRules, analyzers, line length, syntax</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.3 -softuni</Version>
     <FileVersion>1.0.0.0</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <Product>CodeAnalyzers.AdditionalRules</Product>
