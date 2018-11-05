@@ -56,17 +56,17 @@ namespace CodeAnalyzers.AdditionalRules
             {
                 var difference = line.End - line.Start;
 
+                var location = root.SyntaxTree.GetLocation(line.Span);
+
+                var node = root.FindNode(location.SourceSpan);
+
+                if (node.IsKind(SyntaxKind.NamespaceDeclaration))
+                {
+                    startTrace = true;
+                }
+
                 if (difference > this.maximumLineLength)
                 {
-                    var location = root.SyntaxTree.GetLocation(line.Span);
-
-                    var node = root.FindNode(location.SourceSpan);
-
-                    if (node.IsKind(SyntaxKind.NamespaceDeclaration))
-                    {
-                        startTrace = true;
-                    }
-
                     if (!node.IsKind(SyntaxKind.UsingDirective) &&
                         !node.IsKind(SyntaxKind.NamespaceDeclaration) &&
                         !node.IsKind(SyntaxKind.ClassDeclaration) &&
@@ -77,7 +77,8 @@ namespace CodeAnalyzers.AdditionalRules
                         startTrace)
                     {
                         var diagnostic = Diagnostic.Create(
-                            Rule, location,
+                            Rule,
+                            location,
                             $"Exceeds maximum line length of {maximumLineLength} characters.");
 
                         context.ReportDiagnostic(diagnostic);
